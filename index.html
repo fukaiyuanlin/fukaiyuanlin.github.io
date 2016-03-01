@@ -8,18 +8,52 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+	 <link rel="stylesheet" href="css/style.css"/>
+    <!--Luara样式文件-->
+    <!--渐隐样式-->
+    <link rel="stylesheet" href="css/luara.css"/>
+    <!--左滑样式-->
+    <link rel="stylesheet" href="css/luara.left.css"/>
+    <!--上滑样式-->
+    <link rel="stylesheet" href="css/luara.top.css"/>
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">富凯园林工程有限公司</h1>
-      <h2 class="project-tagline">富凯园林工程有限公司</h2>
+      <h2 class="project-name">富凯园林工程有限公司</h2>
+	  
     </section>
+   
+	 <script src="js/jquery-1.8.3.min.js"></script>
+    <!--Luara js文件-->
+    <script src="js/jquery.luara.0.0.1.min.js"></script>
 
-    <section class="main-content">
+    <!--Luara图片切换骨架begin-->
+    <div class="example2">
+        <ul>
+            <li><img src="img/1.jpg" alt="1"/></li>
+            <li><img src="img/2.jpg" alt="2"/></li>
+            <li><img src="img/3.jpg" alt="3"/></li>
+            <li><img src="img/4.jpg" alt="4"/></li>
+        </ul>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+    <!--Luara图片切换骨架end-->
+    <script>
+        $(function(){
+            <!--调用Luara示例-->
+            $(".example2").luara({width:"1366",height:"600",interval:4500,selected:"seleted",deriction:"left"});
+
+        });
+    </script>
+	<section class="main-content">
 		<h3>河北富凯园林工程有限公司于2015年1月26日在石家庄工商局登记注册，业务经理是韩书增，公司注册资本未知，我公司的办公地址位于距首都最近的省会城市，河北省省会石家庄，河北省石家庄市新华区西三庄北大街9号，我们有最好的产品和专业的销售和技术团队，在公司发展壮大的1年里，我们为客户提供最好的产品、良好的技术支持、健全的售后服务，河北富凯园林工程有限公司是石家庄园林工具行业知名企业，如果您对我公司的产品服务有兴趣，请在线留言或者来电咨询。 </h3>
-		<img src="img\item1.jpg" width="600" height="200"/>
+		
 	</section>
-
 
 
   
