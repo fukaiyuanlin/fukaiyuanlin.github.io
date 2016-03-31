@@ -260,15 +260,39 @@ h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   /* image replacement properties */
   overflow: hidden;
-  text-indent: 100%;
+  text-indent: 0%;
+  color: #FFF;
   white-space: nowrap;
-  background: rgba(232, 98, 86, 0.8) url(../images/cd-top-arrow.svg) no-repeat center 50%;
+  background: rgba(232, 98, 86, 0.8) url(../images/cd-top-arrow.svg) no-repeat center 30%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
+  
 }
+a{
+	
+	text-align:center;
+	padding-top:22px
+}
+a:link{
+text-decoration:none;
+color: #FFF; 
+}
+a:visited{
+color: #FFF; 
+text-decoration:none;
+}
+a:hover{
+text-decoration:none;
+color: #FFF; 
+}
+a:active{
+text-decoration:none;
+color: #FFF; 
+}
+
 .cd-top.cd-is-visible {
   /* the button becomes visible */
   visibility: visible;
