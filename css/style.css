@@ -255,15 +255,15 @@ h2 {
   height: 40px;
   width: 40px;
   position: fixed;
-  bottom: 40px;
-  right: 10px;
+  bottom: 10px;
+  right: 0px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   /* image replacement properties */
   overflow: hidden;
   text-indent: 0%;
   color: #FFF;
   white-space: nowrap;
-  background: rgba(232, 98, 86, 0.8) url(../images/cd-top-arrow.svg) no-repeat center 30%;
+  background: rgba(232, 98, 86, 0.8) url(../images/cd-top-arrow.svg) no-repeat center 20%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.3s;
@@ -274,7 +274,7 @@ h2 {
 a{
 	
 	text-align:center;
-	padding-top:22px
+	padding-top:16px
 }
 a:link{
 text-decoration:none;
